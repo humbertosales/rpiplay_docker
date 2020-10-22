@@ -33,10 +33,6 @@ You may provide the following environment variables
 
 Please also see the [RPiPlay Usage documentation](https://github.com/FD-/RPiPlay#usage).
 
-## Please note
-This project is not under active maintenance and probably not the ultimate solution for the problem - It originated out of personal need and interest.
-I published it, to eventually help somebody. 
-
 ## Tested platforms
 
 | Hardware | OS |
@@ -45,3 +41,8 @@ I published it, to eventually help somebody.
 |Raspberry Pi 3B |[Hypriot OS](https://blog.hypriot.com/) 1.10.0 |
 
 Please keep in mind that this image is not guaranteed to run on any platform that theoretically should be supported.
+
+## Please note
+This project is not under active maintenance and probably not the ultimate solution for the problem - It originated out of personal need and interest.
+I published it, to eventually help somebody.
+Also, a **huge thank you** to the awesome people who made this awesome software - I basically only copied it.

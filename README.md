@@ -2,6 +2,8 @@
 This repo tries to provide a docker image for the awesome [RPiPlay](https://github.com/FD-/RPiPlay) software.
 Please note, that this image works only on raspbian/raspberry-pi-os (at least currently).
 
+[Docker Hub link](https://hub.docker.com/r/djhofmann/rpiplay)
+
 ## Credits
 To build the image, I used [RPiPlay-docker-builder](https://github.com/nicolaspernoud/RPiPlay-docker-builder) - Thank you so much @nicolaspernoud 
 

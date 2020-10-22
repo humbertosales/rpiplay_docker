@@ -44,5 +44,7 @@ Please keep in mind that this image is not guaranteed to run on any platform tha
 
 ## Please note
 This project is not under active maintenance and probably not the ultimate solution for the problem - It originated out of personal need and interest.
+
 I published it, to eventually help somebody.
+
 Also, a **huge thank you** to the awesome people who made this awesome software - I basically only copied it.

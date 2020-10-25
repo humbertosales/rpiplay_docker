@@ -36,4 +36,4 @@ COPY ./docker_entry.sh .
 
 RUN chmod +x docker_entry.sh
 
-CMD ["bash","-c","./docker_entry.sh"]
+ENTRYPOINT ["bash","-c","./docker_entry.sh"]

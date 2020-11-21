@@ -24,7 +24,7 @@ RUN printf "\nadd_library(dns_sd SHARED IMPORTED GLOBAL)\nset_target_properties(
 
 RUN cd build && cmake .. && make
 
-FROM nhypriot/rpi-alpine
+FROM arm32v7/debian:buster 
 
 COPY --from=builder /work/RPiPlay/build /rpiplay/
 

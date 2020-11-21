@@ -1,4 +1,4 @@
-FROM debian:latest AS builder
+FROM armhf/debian:latest AS builder
 
 RUN apt update && apt install -y git cmake libavahi-compat-libdnssd-dev libplist-dev libssl-dev g++ wget zip
 
@@ -24,7 +24,7 @@ RUN printf "\nadd_library(dns_sd SHARED IMPORTED GLOBAL)\nset_target_properties(
 
 RUN cd build && cmake .. && make
 
-FROM nicholaswilde/raspberry-pi-os
+FROM nhypriot/rpi-alpine
 
 COPY --from=builder /work/RPiPlay/build /rpiplay/
 

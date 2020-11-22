@@ -1,4 +1,5 @@
-# rpiplay_docker FORK
+# rpiplay_docker FORK compiled to RPI 1, ZERO e ZERO W (arm32v6)
+
 This repo tries to provide a docker image for the awesome [RPiPlay](https://github.com/FD-/RPiPlay) software.
 Please note, that this image works only on raspbian/raspberry-pi-os (at least currently).
 

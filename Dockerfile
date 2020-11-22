@@ -32,11 +32,11 @@ RUN printf "\nadd_library(dns_sd SHARED IMPORTED GLOBAL)\nset_target_properties(
 
 RUN cd build && cmake .. && make
 
-FROM balenalib/rpi-debian:buster 
+FROM balenalib/rpi-debian:run 
 
 COPY --from=builder /work/RPiPlay/build /rpiplay/
 
-RUN apt update && apt install -y libavahi-compat-libdnssd-dev libplist-dev libssl-dev && \
+RUN apt update && apt install -y libavahi-compat-libdnssd-dev libplist-dev libssl-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev avahi-daemon && \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /rpiplay

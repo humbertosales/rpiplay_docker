@@ -35,7 +35,7 @@ You may provide the following environment variables
 |RPI_PLAY_AUDIO |RPiPlay audio mode |hdmi |
 |RPI_PLAY_NAME |Network name |RPiPlay |
 
-``Extra args (e.g. -l)`` pass parameter docker run (CMD).
+``Extra args (e.g. -l or -d)`` pass parameter docker run (CMD).
 
 Please also see the [RPiPlay Usage documentation](https://github.com/FD-/RPiPlay#usage).
 
@@ -43,8 +43,8 @@ Please also see the [RPiPlay Usage documentation](https://github.com/FD-/RPiPlay
 
 | Hardware | OS |
 | -------- | -- |
-|Raspberry Pi 4B (4GB) |[Hypriot OS](https://blog.hypriot.com/) 1.11.4 |
-|Raspberry Pi 3B |[Hypriot OS](https://blog.hypriot.com/) 1.10.0 |
+|Raspberry Pi Zero (not W) |[Hypriot OS on HOST](https://blog.hypriot.com/) 1.12.3 |
+
 
 Please keep in mind that this image is not guaranteed to run on any platform that theoretically should be supported.
 
